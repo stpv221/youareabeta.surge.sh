@@ -51,6 +51,6 @@ document.addEventListener("click", () => {
         win.location.href = window.location.href;
     }
 
-    if (Math.random(1, 20) == 1) crash();
+    if (Math.random(1, 10) == 1) crash();
 });
  
